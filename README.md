@@ -6,25 +6,25 @@ Each log file can only contain 1000 lines (messages).
 ## Installation
 
 1. Get the code
-1. Clone it to a folder
-2. Download the compressed code and extract it to a folder
++ Clone it to a folder
++ Or download the compressed code and extract it to a folder
 2. Install the library
-1. Open a teminal window in the folder where is the code (where is Makefile)
-2. write: $ make install
++ Open a teminal window in the folder where is the code (where is Makefile)
++ write: $ make install
 
 **Note:** You need to have root permissions in the last instruction.
 
-The shared should now be installed in your machine.
+The shared library should now be installed in your machine.
 
 ## Usage
 
-**Important:** The folder where log files will be stored must exists before library usage. 
+**Important:** The folder where log files will be stored must exist before library usage. 
 The library will not create a folder.
 
 A little example:
 
 	#include <stdio.h>
-	#include <lib100log.h>
+	#include <lib1000log.h>
 
 	int	main(void)
 	{
